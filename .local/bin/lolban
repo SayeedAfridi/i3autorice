@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+toilet -f bigmono12.tlf "$1" | lolcat
+
+

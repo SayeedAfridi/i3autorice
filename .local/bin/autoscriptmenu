@@ -1,0 +1,5 @@
+#!/bin/bash
+
+selected=$(ls "$HOME/.local/bin" | rofi -dmenu -theme bmenu -p "autoscript: ")
+[[ -z $selected ]] && exit
+autoscript $selected
